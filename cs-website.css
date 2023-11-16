@@ -1,3 +1,43 @@
 .menu1{
     text-align: right;
 }
+
+.class-container{
+    border: 2px solid #333; 
+    padding: 20px; 
+    width: 1000px; 
+    margin: 20px auto;
+    display: inline-block;
+    display: flex;
+
+}
+
+.short-courses{
+    border: 2px solid #333; 
+    padding: 20px; 
+    width: 400px; 
+     margin: 20px;
+
+}
+.undergraduate-programmes{
+    border: 2px solid #333; 
+    padding: 20px; 
+    width: 400px; 
+     margin: 20px;
+}
+.master-programmes{
+    border: 2px solid #333; 
+    padding: 20px; 
+    width: 400px; 
+     margin: 20px;
+}
+.PhD-programmes{
+    border: 2px solid #333; 
+    padding: 20px; 
+    width: 400px; 
+     margin: 20px;
+}
+
+
+
+
