@@ -30,4 +30,8 @@
             
             showSlide(currentSlide);
 
+            function openPage(pageURL) {
+                
+                window.open(pageURL, '_blank');
+            }
         
