@@ -145,11 +145,6 @@ img {
 .arrow-btn:hover {
     background-color: #bbb;
 }
-
-
-
-
-
   
   #footer-container {
     background-color: #f4f4f4;
@@ -266,21 +261,21 @@ img {
   }
 .abouttext-container {
     width: 1000px;
-    margin: 0 auto; /* Center the container horizontally */
-    padding: 20px; /* Add some padding for spacing */
+    margin: 0 auto; 
+    padding: 20px; 
 }
 
 .abouttext {
-    text-align: justify; /* Justify the text for a clean appearance */
+    text-align: justify; 
 }
 
 .abouttext h3 {
-    color: #006994; /* Set the color for the heading */
-    margin-top: 20px; /* Add space above each heading */
+    color: #006994; 
+    margin-top: 20px; 
 }
 
 .abouttext p {
-    margin-bottom: 20px; /* Add space below each paragraph */
+    margin-bottom: 20px; 
 }
 
 
