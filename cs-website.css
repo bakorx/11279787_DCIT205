@@ -1,7 +1,45 @@
-.menu1{
-    text-align: right;
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
+#site-header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
 
+  .menu1 {
+    display: flex;
+    gap: 10px;
+    order: 1; 
+  }
+
+  .menu1 button {
+    background-color: #006994 ;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  .welcome{
+    border: 2px solid transparent; 
+    padding: 20px; 
+    width: 1000px; 
+    margin: 20px auto;
+    display: inline-block;
+    display: flex;
+}
+.welcome2{
+    border: 2px solid transparent; 
+    padding: 20px; 
+    width: 400px; 
+     margin: 20px;
+}
 .class-container{
     border: 2px solid transparent; 
     padding: 20px; 
@@ -97,46 +135,72 @@ img {
 }
 
 
-#site-header {
-    background-color: #346
-    color: #fff;
-    padding: 10px;
-    text-align: center;
-}
 
-#footer{
-    border: 1px solid transparent;
-      padding: 10px;
-      width: 1000px;
-      margin: 0 auto; 
-      display: flex;
-      flex-wrap: wrap;
-    }
-    
 
-.more-info{
-    
-    border: 1px solid transparent;
+
+  
+  #footer-container {
+    background-color: #f4f4f4;
     padding: 10px;
-    width: 1000px;
+    width: 1000px; /
+    margin: 0 auto;
+  }
+
+  .more-info {
+    width: calc(33.33% - 20px); 
+    margin: 10px;
+    box-sizing: border-box; 
+    text-align: center; 
+    float: left; 
+  }
+
+  .more-info h5 {
+    color: #333;
+  }
+
+  .more-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .more-info ul li {
+    margin-bottom: 8px;
+    color: #666;
+  }
+
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  #faculty-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px; 
     margin: 0 auto; 
+  }
+  
+  .faculty {
     display: flex;
-    flex-wrap: wrap;
-      
-
-}
-
-.welcome{
-    border: 2px solid transparent; 
+    flex-direction: column;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
     padding: 20px; 
-    width: 1000px; 
-    margin: 20px auto;
-    display: inline-block;
-    display: flex;
-}
-.welcome2{
-    border: 2px solid transparent; 
-    padding: 20px; 
-    width: 400px; 
-     margin: 20px;
-}
+  }
+  
+  .faculty h3 {
+    margin: 0 0 10px 0;
+  }
+  
+  .faculty img {
+    max-width: 100px; 
+    height: auto;
+  }
+  
+  .faculty p {
+    margin: 0;
+  }
+  
