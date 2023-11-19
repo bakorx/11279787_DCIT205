@@ -1,13 +1,25 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+
 }
+
+.page-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
 #site-header {
     background-color: #f4f4f4;
     padding: 20px;
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+   
   }
 
   .menu1 {
@@ -214,4 +226,64 @@ img {
         width: 100%; 
     }
 }
+.content-container {
+    border: 2px solid transparent; 
+    padding: 20px; 
+    width: 1000px; 
+    margin: 20px auto;
+    display: inline-block;
+    display: flex;
+  }
+  
+.image-container {
+    position: relative;
+    display: inline-block;
+}
+  
+.dark-overlay {
+    display: block;
+    width: 1000px;
+    height: auto;
+    filter: brightness(30%); 
+  }
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white; 
+    font-size: 36px; 
+    font-weight: bold;
+}
+
+.abouttext-container{
+    border: 2px solid transparent; 
+    padding: 20px; 
+    width: 1000px; 
+    margin: 20px auto;
+    display: inline-block;
+    display: flex;
+  }
+.abouttext-container {
+    width: 1000px;
+    margin: 0 auto; /* Center the container horizontally */
+    padding: 20px; /* Add some padding for spacing */
+}
+
+.abouttext {
+    text-align: justify; /* Justify the text for a clean appearance */
+}
+
+.abouttext h3 {
+    color: #006994; /* Set the color for the heading */
+    margin-top: 20px; /* Add space above each heading */
+}
+
+.abouttext p {
+    margin-bottom: 20px; /* Add space below each paragraph */
+}
+
+
+      
+
 
