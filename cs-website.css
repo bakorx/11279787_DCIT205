@@ -21,15 +21,20 @@ body {
     align-items: flex-end;
    
   }
+  .menu1 a:hover {
+    color: #3498db;
+    cursor: pointer;
+  }
+  
 
   .menu1 {
     display: flex;
     gap: 10px;
-    order: 1; 
-  }
+    order: 1;
+}
 
-  .menu1 button {
-    background-color: #006994 ;
+.menu1 a {
+    background-color: #006994;
     color: white;
     border: none;
     padding: 10px;
@@ -37,7 +42,14 @@ body {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-  }
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.menu1 a:hover {
+    background-color: lightblue;
+}
+  
   .welcome{
     border: 2px solid transparent; 
     padding: 20px; 
@@ -278,7 +290,40 @@ img {
     margin-bottom: 20px; 
 }
 
+.specific-nav {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  .specific-nav a {
+    text-decoration: none;
+    color: #333;
+    display: block;
+    transition: color 0.3s ease;
+  }
+  
+  .specific-nav a:hover {
+    color: #3498db;
+    cursor: pointer;
+  }
 
+  .left-image-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+  }
+  
+ 
+  
+  .margin-image {
+    height: 100%;
+    width: auto;
+
+  }
       
 
 

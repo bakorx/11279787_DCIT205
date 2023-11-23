@@ -1,0 +1,52 @@
+.intro-short {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  h2, h4, p {
+    margin-bottom: 15px;
+  }
+  
+  button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #2980b9;
+  }
+
+  .short-intro {
+    max-width: 1000px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+  }
+  
+  h4, p {
+    margin-bottom: 15px;
+  }
+  
+  img {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  
+  
