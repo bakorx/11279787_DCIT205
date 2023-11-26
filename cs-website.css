@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    
    
   }
   .menu1 a:hover {

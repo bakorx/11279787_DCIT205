@@ -34,4 +34,18 @@
                 
                 window.open(pageURL, '_blank');
             }
+
+            function redirectToRegistrationPage() {
+                window.location.href = 'registercourse.html'; // Replace with the desired registration page URL
+              }
         
+              function toggleAccordion(element) {
+                var accordionBody = element.nextElementSibling;
+            
+                // Toggle the selected accordion body
+                if (accordionBody.style.display === 'none' || accordionBody.style.display === '') {
+                  accordionBody.style.display = 'block';
+                } else {
+                  accordionBody.style.display = 'none';
+                }
+              }
