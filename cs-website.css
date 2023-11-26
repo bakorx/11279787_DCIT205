@@ -325,6 +325,58 @@ img {
     width: auto;
 
   }
-      
 
+  .research-container {
+    width: 1000px;
+    margin: 0 auto;
+}
 
+.research-container h2 {
+    color: #333; 
+}
+
+.research-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.research-container li {
+    color: #0077cc; 
+}
+
+.uevents-container,
+.pevents-container {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.pevents-container img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+}
+
+@media (min-width: 768px) {
+    .uevents-container,
+    .pevents-container {
+        width: 1000px;
+        margin: 0 auto;
+    }
+
+    .pevents-container img {
+        width: 32%;
+        max-width: 100%;
+        height: auto;
+        display: inline-block;
+        margin-right: 2%; 
+        margin-bottom: 10px;
+    }
+
+    .pevents-container img:last-child {
+        margin-right: 0; 
+    }
+}
